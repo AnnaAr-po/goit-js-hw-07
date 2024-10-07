@@ -1,0 +1,31 @@
+.list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 16px;
+  width: 392px;
+  background: #f6f6fe;
+}
+.title {
+  font: 600 24px / 1.33333 'Montserrat', sans-serif;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding-left: 40px;
+}
+.item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+}
+.list-item {
+  display: flex;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 300px;
+  height: 40px;
+}
